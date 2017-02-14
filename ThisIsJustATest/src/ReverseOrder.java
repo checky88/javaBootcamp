@@ -3,6 +3,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+
+/*The challenge is:
+Write a method to return the reverse order for a list of space separated words.
+Example: "A sample sentence is required" would return "required is sentence sample A"*/
+
 public class ReverseOrder {
 
 	public static void main(String[] args) {
