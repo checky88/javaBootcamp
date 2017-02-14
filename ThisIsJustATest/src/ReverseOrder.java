@@ -9,6 +9,7 @@ public class ReverseOrder {
 		
 		String s = "A sample sentence is required";
 		
+		//Declare a list array and put string s into it 
 		List<String> myList = new ArrayList<String>(Arrays.asList(s.split(" ")));
 		
 		Collections.reverse(myList);
