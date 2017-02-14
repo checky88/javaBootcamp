@@ -16,17 +16,16 @@ public class SumMultiples {
 		int n= 0;
 
 		 System.out.println("Please enter a number:");
-		 n = keyboard.nextInt();
-		 System.out.println("Number = " + n);
+		 n = keyboard.nextInt();//takes the number entered and sets to the value of n
 		 
 		 for(int i = 3; i<=n;i++){
 			 if (i % 3 == 0 || i % 5 == 0) 
 			 sum += i;
 			
 		 }//end for loop
-		 System.out.println("Sum of "+ n +" mod 3 or mod 5 is = " + sum);
+		 System.out.println("Sum of "+ n +" mod 3 or mod 5 being zero is = " + sum);
 		 
 	
-	}
+	}//end main
 
-}
+}//end class
