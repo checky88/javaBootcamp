@@ -1,28 +1,28 @@
+import java.util.Random;
 
 public class ThisIsJustATest {
 
 	public static void main(String[] args) {
-	int y = 2;
+	int minimum = 1;
+	int maximum = 4;
+	int randomNum;
+	String monthString = null;
 		
-		System.out.println("This is just a Test");
-		
-		for(int x = 0; x < 10; x++){
-			System.out.println("Here is x " + x);
-			
-			if (x == 1)
-			{
-				break;
-			}//end if
-		}//end for loop
-		
-		System.out.println("Hello world");
-
-		 while(y == 2){
-			
-			System.out.println("Hello do while");
-			y++;
-			
-		}//end do while
-	}//end main
+	randomNum = minimum + (int)(Math.random() * maximum); 
+	
+	switch (randomNum) {
+    case 1:  monthString = "January";
+             break;
+    case 2:  monthString = "February";
+             break;
+    case 3:  monthString = "March";
+             break;
+    case 4:  monthString = "April";
+             break;
+	}
+	
+	System.out.println(randomNum);
+	System.out.println("monthString = "+monthString);
 
 }//end class
+}
