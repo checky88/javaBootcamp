@@ -1,3 +1,7 @@
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class _C {
 
@@ -20,6 +24,17 @@ public class _C {
 		System.out.println(s1.equals(s2));
 		System.out.println(sb1.toString() == s1);
 		System.out.println(sb1.toString().equals(s1));
+		
+		
+		
+		
+	/*		DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+			String today = new Date();
+			Date todayDateAndTime = formatter.parse(today);
+		
+			System.out.println(Date.parse(todayDateAndTime));*/
+	
+		
 	}
 
 }

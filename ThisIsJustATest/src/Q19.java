@@ -9,7 +9,8 @@ public class Q19{
 	String s2 = new String("java");
 	String s3 = s2;
 	
-	if (s1.equalsIgnoreCase(s2)){
+//	if (s1.equalsIgnoreCase(s2)){
+	if (s1 == s2){
 		System.out.println("Equal");
 	}
 	else 
