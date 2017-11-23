@@ -7,7 +7,7 @@ public class X implements Z {
 		X myX = myY;
 		Z myZ = myX;
 		System.out.print(myX);
-		System.out.print((Y)myX);
+		System.out.print(myX);
 		System.out.print(myZ);
 	}
 }

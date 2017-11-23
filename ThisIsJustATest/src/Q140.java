@@ -11,7 +11,7 @@ public class Q140 {
 
 		Q140 ts = new Q140();
 		System.out.print(isAvailable + " ");
-		isAvailable = ts.doStuff();
+		isAvailable = doStuff();
 		System.out.println(isAvailable);
 	}
 				public static boolean doStuff() {

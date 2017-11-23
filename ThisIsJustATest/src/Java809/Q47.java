@@ -5,7 +5,7 @@ package Java809;
  */
 public class Q47 {
 
-    void doStuff() throws ArithmeticException, NumberFormatException, Exception {
+    void doStuff() throws Exception {
         if (Math.random() > -1) throw new Exception ("Try again");
     }
 

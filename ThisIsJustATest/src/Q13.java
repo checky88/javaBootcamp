@@ -27,7 +27,7 @@ static int count = 0;
 	ref2.print();
 	//ref3.print();
 	
-	System.out.println(ref1.count +" : "+ ref2.count);
+	System.out.println(count +" : "+ count);
 	
 	}
 
